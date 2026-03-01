@@ -8,13 +8,13 @@
     tools:context=".MainActivity"
     android:gravity="center">
 
-    <Button
-        android:id="@+id/button2"
+    <EditText
+        android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="КНОПКА"
-        android:textSize="20sp"
-        android:backgroundTint="#FF0000"/>
-
+        android:ems="10"
+        android:inputType="text"
+        android:text="Введите ваше имя"
+        android:layout_margin="100dp"
+         />
 </LinearLayout>
