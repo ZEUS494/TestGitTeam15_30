@@ -6,16 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:gravity="center">
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="КНОПКА"
-        android:textSize="20sp"
-        android:backgroundTint="#00FFE9"/>
-
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
 
     <EditText
         android:id="@+id/editTextText"
@@ -24,6 +17,14 @@
         android:ems="10"
         android:inputType="text"
         android:text="Введите ваше имя"
-        android:layout_margin="100dp"
-         />
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="КНОПКА"
+        android:textSize="20sp"
+        android:backgroundTint="#00FFE9"/>
+
 </LinearLayout>
